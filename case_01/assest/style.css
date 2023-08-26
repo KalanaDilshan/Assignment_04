@@ -1,0 +1,33 @@
+aside{
+    width: 250px;
+    height: 100vh;
+    background-color: aqua;
+}
+div{
+    width: 250px;
+    height: 50px;
+    background-color: purple;
+    margin-bottom: 50px;
+    position: relative;
+    right: 200px;
+    transition: right;
+    transition-property: right;
+    transition-duration: 3s;
+    transition-timing-function: linear;
+    cursor: pointer;
+
+}
+div:hover{
+    left: 0px;
+
+}
+div>h3{
+    /*display: inline;*/
+    position: absolute;
+    left: 0px;
+    /*margin-top: 20px;*/
+}
+div>img{
+    position: absolute;
+    right: 0px;
+}
